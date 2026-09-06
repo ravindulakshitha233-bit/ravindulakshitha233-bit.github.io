@@ -4,7 +4,7 @@ A responsive, dark personal portfolio built with HTML, CSS, and vanilla JavaScri
 
 ## Files
 
-- `index.html`: Content, navigation, project details, and contact placeholders.
+- `index.html`: Content, navigation, project details, and contact details.
 - `style.css`: Theme colors, layouts, cards, responsive styles, and animations.
 - `script.js`: Mobile menu, active section highlighting, and automatic footer year.
 - `README.md`: Editing and deployment instructions.
@@ -16,26 +16,18 @@ Open `index.html` directly in your browser. All content and section links work w
 ## Personalize
 
 1. Edit the text in `index.html` to update your about, projects, skills, or education.
-2. Find `your.email@example.com` in the contact section. Replace its entire placeholder `<div class="contact-item placeholder">...</div>` with a real link, using your own address in both places:
-
-   ```html
-   <a class="contact-item" href="mailto:YOUR_EMAIL_ADDRESS">
-     <span>Email</span>
-     <strong>YOUR_EMAIL_ADDRESS</strong>
-     <span class="contact-arrow" aria-hidden="true">↗</span>
-   </a>
-   ```
+2. The contact email is [ravindulakshitha233@gmail.com](mailto:ravindulakshitha233@gmail.com). Update both its visible text and `mailto:` address together in `index.html`.
 
 3. LinkedIn is omitted because no URL was provided. You can add a `contact-item` link later if needed. Use `target="_blank" rel="noopener noreferrer"` for external links.
-4. The GitHub links already use your supplied profile. Project repository links are not included because specific repository URLs were not supplied. Add actual repository links inside the relevant `.project-body` when ready.
+4. The GitHub links already use your supplied profile. Project repository links are not included because specific repository URLs were not supplied. NSBM AURA’s repository is private; its card displays `assets/images/nsbm-aura-landing.png` without a repository or live project link.
 5. Change the variables under `:root` in `style.css` to customize the palette. Styles are grouped with comments; responsive overrides are near the bottom.
 
-Email is a clearly labeled, non-clickable placeholder until you replace it. There is no contact form or backend.
+Email is a clickable link that opens the visitor’s email application. There is no contact form or backend.
 
 ## Deploy with GitHub Pages
 
 1. Create a GitHub repository (for example, `ravindu-portfolio`).
-2. Upload these four files to the repository root. Keep their filenames unchanged.
+2. Upload these four files and the `assets` folder to the repository root. Keep their filenames unchanged.
 3. In the repository, open **Settings → Pages**.
 4. Under **Build and deployment**, choose **Deploy from a branch**.
 5. Select your default branch (usually `main`) and the **/ (root)** folder, then save.
@@ -53,4 +45,4 @@ With the example repository name, the expected project URL is `https://ravindula
 
 ## Before sharing
 
-Replace the email placeholder, review your details, and try the menu and section links on your phone. External GitHub links open in a new tab.
+Review your details, and try the menu and section links on your phone. External GitHub links open in a new tab.

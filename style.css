@@ -621,6 +621,22 @@ p {
   padding:29px;
 }
 
+.aura .project-screenshot {
+  display:block;
+  width:100%;
+  max-width:100%;
+  height:auto;
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  margin:0 0 20px;
+  transition:border-color .2s,box-shadow .2s;
+}
+
+.aura .project-screenshot:hover {
+  border-color:#536485;
+  box-shadow:0 8px 24px #0003;
+}
+
 .project-body h3 {
   font-size:24px;
   letter-spacing:-.6px;
